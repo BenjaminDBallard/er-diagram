@@ -70,9 +70,15 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
+  a one-to-one relationship
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
 
+	A diamond is used at the end of the link when the column in the source table is optional (there is no NOT NULL)
+
 3. How many foreign keys does the "payments" table have? How can you tell?
+
+  there are three, because there are three dashed lines connected to that table and they are all designated as foreign links
 
 ##### ER Diagram upload
 
